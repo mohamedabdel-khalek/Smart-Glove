@@ -41,7 +41,7 @@ void setup() {
 
   Serial.begin(9600);
   softwareSerial.begin(9600);   // Beigning serial port for DFPlayer Mini
-  player.begin(softwareSerial); // Start communication with DFPlayer Mini /*****/
+  player.begin(softwareSerial); // Start communication with DFPlayer Mini
   lcd.init();                   // Command to start running
   lcd.backlight();
   lcd.setCursor(0, 0);
